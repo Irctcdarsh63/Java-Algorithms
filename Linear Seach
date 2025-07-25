@@ -4,7 +4,7 @@
 class Main {
     public static void main(String[] args) {
         int[] arr={1,3,5,7,9,11,13};
-        int LengthOfArray=arr.length-1;
+        int LengthOfArray=arr.length;
         int NosIndex=5;
         for(int i=0;i<LengthOfArray;i++){
             if (arr[i]==NosIndex)
