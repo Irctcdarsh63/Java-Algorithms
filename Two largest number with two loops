@@ -1,0 +1,19 @@
+class Main {
+    public static void main(String[] args) {
+        int[] arr={18,3,5,7,9,11,18};
+        int LengthOfArray=arr.length;
+        int MaxNumber=arr[0];
+        int SecondMaxNumber=0;
+        for(int i=0;i<LengthOfArray;i++){
+            if (arr[i]>MaxNumber)
+            MaxNumber=arr[i];
+        }
+        for(int j=0;j<LengthOfArray;j++){
+            if(arr[j]>SecondMaxNumber && arr[j]!=MaxNumber)
+            SecondMaxNumber=arr[j];
+        }
+        System.out.println("The Maximum Number Of The Array Is "+MaxNumber);
+        System.out.println("The Second Maximum Number Of The Array Is "+SecondMaxNumber);
+
+    }
+}
