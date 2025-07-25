@@ -1,0 +1,14 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int[] arr={1,3,5,7,9,11,13};
+        int LengthOfArray=arr.length-1;
+        int NosIndex=5;
+        for(int i=0;i<LengthOfArray;i++){
+            if (arr[i]==NosIndex)
+            System.out.println("Index of the given number is " + i);
+        }
+    }
+}
